@@ -1,4 +1,4 @@
-//Simple script for disabling Ethernet Adapter
+#Simple script for disabling Ethernet Adapter
 $ethernet = Get-NetAdapter -name "Ethernet"
 if($ethernet.Status -ieq 'Disabled'){
 Enable-NetAdapter -Name "Ethernet" -Confirm:$false

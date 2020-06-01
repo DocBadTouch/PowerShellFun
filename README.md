@@ -1,2 +1,2 @@
 # PowerShellFun
-A place to store usefull PowerShell scripts.
+A place to store useful PowerShell scripts.
